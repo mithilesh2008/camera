@@ -48,7 +48,7 @@ function draw() {
     if (background.x < 0){
       background.x = background.width/2;
     }
-  
+  camera.position.x = displayWidth/2;
   //moving bow
   bow.y = World.mouseY
   
@@ -168,6 +168,6 @@ function pinkBalloon() {
    
 }
 
-camera.position.x = displayWidth/2;
+
 
 
