@@ -48,7 +48,8 @@ function draw() {
     if (background.x < 0){
       background.x = background.width/2;
     }
-  camera.position.x = displayWidth/2;
+  camera.position.x =bow.x;
+  camera.position.y=bow.y;
   //moving bow
   bow.y = World.mouseY
   
